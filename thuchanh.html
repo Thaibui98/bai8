@@ -21,12 +21,28 @@
     //     alert(year + "ko phải năm nhuận");
     // }
 
-let value = prompt("What is the 'official' name of JavaScript? ");
-if (value == 'ECMAScript'){alert('Right');
-} else {
-    alert("You don't know? ECMAScript");
-}
+// let value = prompt("What is the 'official' name of JavaScript? ");
+// if (value == 'ECMAScript'){alert('Right');
+// } else {
+//     alert("You don't know? ECMAScript");
+// }
 
+    let userName = prompt("nhập tên tài khoản");
+    if (userName == 'Admin'){
+        let pass = prompt('Password?');
+        if (pass == 'TheMaster'){
+            alert("Welcome.");
+        } else if (pass == 'null'){
+            alert('Canceled.');
+        } else {
+            alert('Wrong password');
+        }
+
+    } else if (userName = null){
+        alert('Canceled');
+    } else {
+            alert("i don't know you");
+    }
 </script>
 </body>
 </html>
